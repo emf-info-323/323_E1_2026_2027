@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Évaluation E1</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 2em;
+            }
+
+            button {
+                margin: 0.2em;
+                padding: 0.5em 0.5em;
+                font-size: 1em;
+            }
+
+            #output {
+                margin-top: 2em;
+                padding: 1em;
+                font-family: 'Consolas', 'Courier New', Courier, monospace;
+                font-size: 1em;
+                font-weight: bold;
+                border: 1px solid #ccc;
+                min-height: 2em;
+                background: #fafafa;
+            }
+        </style>
+        <script src="e1-data.js"></script>
+        <script src="e1.js"></script>
+    </head>
+
+    <body>
+        <h1>Évaluation E1 - Steam Data Analysis</h1>
+        <p>
+            <button id="idActionA1">A1 - Le nombre de jeux payants et gratuits</button>
+            <button id="idActionA2">A2 - La répartition des jeux par plateforme</button>
+            <button id="idActionA3">A3 - Les genres de jeu disponibles et le nombre de jeux correspondants</button>
+            <button id="idActionA4">A4 - La liste des jeux disponibles et leur genre, alphabétiquement triés</button>
+            <button id="idActionA5">A5 - Les jeux pas gratuits dont le prix est inférieur ou égal à 5 CHF, triés par prix d'abord puis par nom</button>
+            <button id="idActionA6">A6 - Le prix moyen de tous les jeux (sans les gratuits), arrondi à deux décimales</button>
+            <button id="idActionA7">A7 - Les meilleurs/pires jeux par rating, triés par rating puis par nom</button>
+            <button id="idActionA8">A8 - Le TOP 10 des jeux sur lesquels les joueurs passent le plus de temps en moyenne</button>
+            <button id="idActionA9">A9 - Le chiffre d'affaires total réalisé en Suisse, à deux décimales avec séparateur de milliers</button>
+            <button id="idActionA10">A10 - Le chiffre d'affaires total réalisé dans chacun des pays</button>
+            <button id="idActionA11">A11 - Le TOP 6 des jeux BINGO</button>
+            <button id="idActionA12">A12 - Le CA par éditeur de jeu et pour chaque pays</button>
+        </p>
+        <hr />
+
+        <pre id="output"></pre>
+    </body>
+</html>
